@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.story-container {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.button-container button {
+	margin: 10px;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 4px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.button-container button:hover {
+	background-color: #0069d9;
+}
+
+.highlight {
+	background-color: yellow;
+}
